@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="height"
+    >
+      Height
+    </label>
+    <input
+      id="height"
+      max="500"
+      min="25"
+      name="height"
+      placeholder="Box Height"
+      step="50"
+      type="range"
+      value="250"
+    />
+    <label
+      for="width"
+    >
+      Width
+    </label>
+    <input
+      id="width"
+      max="500"
+      min="25"
+      name="width"
+      step="50"
+      type="range"
+      value="250"
+    />
+    <label
+      for="backgroundColor"
+    >
+      Color
+    </label>
+    <input
+      id="backgroundColor"
+      name="backgroundColor"
+      type="text"
+      value="green"
+    />
+    <button>
+      Add Box
+    </button>
+  </form>
+</DocumentFragment>
+`;
